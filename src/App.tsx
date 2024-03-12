@@ -27,7 +27,7 @@ function App() {
 
 
   async function PostData()
-  {
+  { 
 
       const myData = `{"Description": "${desc}", "Price": ${price}  }`
 
