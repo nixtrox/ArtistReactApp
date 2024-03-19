@@ -67,7 +67,7 @@ function App() {
       <h1>X's commissions</h1>
       <ul>
         {
-          comms.map(comm => <p> {comm.Description} || {comm.Price} </p> )
+          comms.map(comm => <p>   {comm.Description} || {comm.Price} </p> )
         }
       </ul>
     </div>
